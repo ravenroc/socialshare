@@ -1,0 +1,14 @@
+{
+  "name": "socialshare",
+  "description": "A jQuery plugin for social sharing. Supports Facebook, Twitter, LinkedIn, and Pinterest",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digsite/socialshare.git"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
