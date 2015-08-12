@@ -127,7 +127,7 @@
 	//-- https://developers.facebook.com/docs/javascript/quickstart
 	var _facebookAPPID = '';	//-- FB requires an APP ID for their dialog feed
 	var _facebookScriptSrc = "//connect.facebook.net/en_UK/all.js";
-	var _facebookShareURL = "https://www.facebook.com/sharer/sharer.php";
+	var _facebookShareURL = "//www.facebook.com/sharer/sharer.php";
 
 	//-- _share_facebook( o )
 	//--		Takes in object (o) of settings and opens share dialog feed
@@ -224,7 +224,7 @@
 	//=============== LINKEDIN =========================
 	//==================================================
 	//-- https://developer.linkedin.com/documents/share-linkedin
-	var _linkedinShareURL = "https://www.linkedin.com/shareArticle";
+	var _linkedinShareURL = "//www.linkedin.com/shareArticle";
 
 	//-- _share_linkedin( e )
 	//--		Takes in event (e) from click event, and opens link up into a new window
@@ -259,7 +259,7 @@
 	function _load_pinterest()
 	{
 		if(!$('body').hasClass('ssPinterestLoaded')){
-			$('body').append('<script type="text/javascript" async  data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>')
+			$('body').append('<script type="text/javascript" async data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>')
 			$('body').addClass('ssPinterestLoaded');
 		}
 	}
